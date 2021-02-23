@@ -131,7 +131,7 @@ EOL
 
 echo '----------------------------------------------------------'
 echo 'Creating good-cat-deployment.yaml...'
-cat << EOL > cat_demo/good-cat-deployment.yaml
+cat << EOL > cat-demo/good-cat-deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -179,7 +179,7 @@ EOL
 
 echo '----------------------------------------------------------'
 echo 'Creating best-cat-deployment.yaml...'
-cat << EOL > cat_demo/best-cat-deployment.yaml
+cat << EOL > cat-demo/best-cat-deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -239,12 +239,12 @@ microk8s.kubectl apply -f https://raw.githubusercontent.com/octarinesec/evaluati
 echo '----------------------------------------------------------'
 echo 'Creating deletion script, for ease in demo replication'
 
-cat << EOL > cat_demo/demo_cleanup.sh
+cat << EOL > cat-demo/demo_cleanup.sh
 microk8s.kubectl delete deployments -n feline --all
 microk8s.kubectl delete service -n feline --all
 EOL
 
-chmod ugo+wrx cat_demo/demo_cleanup.sh
+chmod ugo+wrx cat-demo/demo_cleanup.sh
 
 echo 'Reference demo documentation for how and when to run said script'
 
