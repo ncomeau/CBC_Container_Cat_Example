@@ -1,7 +1,8 @@
 # CBC_Container_Cat_Example
 This repository is intended to highlight, and simplify, the process for building, and running, an demo example comprised of multiple varying k8 deployments. This demo is intended to showcase one of the many capabilities of the CBC Container Security offering; configuration controls for optimal k8 hygiene & security. 
 
-[(https://j.gifs.com/E8Dl2Y.gif)](https://youtu.be/Tay6iOislKU)
+[![CBC_SN_v2_Setup+Demo](https://j.gifs.com/K1PPDJ.gif)](https://youtu.be/Tay6iOislKU)
+
 ​
 
 ## Setup Instructions
