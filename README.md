@@ -5,7 +5,7 @@ This repository is intended to highlight, and simplify, the process for building
 
 Click Below image for full video breakdown.
 
-[![CBC_Cat_Demo_Vid](https://img.youtube.com/vi/Tay6iOislKU/1.jpg)](https://youtu.be/Tay6iOislKU)
+[![CBC_Cat_Demo_Vid](https://i9.ytimg.com/vi/Tay6iOislKU/mq1.jpg?sqp=COyM_4EG&rs=AOn4CLAvgZQTgrUq5hnt2qqdQCRkhQf_Iw)](https://youtu.be/Tay6iOislKU)
 
 
 ## Setup Instructions
