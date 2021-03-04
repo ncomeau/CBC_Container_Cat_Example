@@ -76,17 +76,18 @@ Click Below image for full video breakdown.
 
 The intent of the demo is ability to highlight enforcement and adherence to best practices in container creation - ensure you run the 'demo_cleanup.sh' after each attempted deployment of one of the cat yamls.
 
-   * bad-cat-deployment.yaml:
-         * Will block deployment creation, due to violation of lack of CPU & Mem limits. 
-         * Will allow service to be created, but will generate an alert for node port violation.
-               *  Associated blocks & alerts can be seen in the CBC console under \[Harden > K8s Violations\] and in Slack (if notifications enabled in step 5 above).
+
+   * bad-cat-deployment.yaml;
+     * Will block deployment creation, due to violation of lack of CPU & Mem limits. 
+     * Will allow service to be created, but will generate an alert for node port violation.
+        * Associated blocks & alerts can be seen in the CBC console under \[Harden > K8s Violations\] and in Slack (if notifications enabled in step 5 above).
    * good-cat-deployment.yaml:
-         * CPU & Mem limits added to the yaml - deployment will be created with no violations.
-         * Will allow service to be created, but will generate an alert for node port violation.
-               *  Associated alert can be seen in the CBC console under \[Harden > K8s Violations\] and in Slack (if notifications enabled in step 5 above).
+     * CPU & Mem limits added to the yaml - deployment will be created with no violations.
+     * Will allow service to be created, but will generate an alert for node port violation.
+       *  Associated alert can be seen in the CBC console under \[Harden > K8s Violations\] and in Slack (if notifications enabled in step 5 above).
    * best-cat-deployment.yaml:
-         * CPU & Mem limits added to the yaml - deployment will be created with no violations.
-         * Node Port removed from yaml - service will be created with no violations
+     * CPU & Mem limits added to the yaml - deployment will be created with no violations.
+     * Node Port removed from yaml - service will be created with no violations
  
 Lastly, if you navigate to the IP:Port specified when creating the best-cat-deployment.yaml (kubectl get all -A), you will see a humorous random gif of the cat!
 
