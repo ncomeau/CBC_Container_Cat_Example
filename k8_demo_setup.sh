@@ -249,9 +249,10 @@ chmod ugo+wrx cat-demo/demo_cleanup.sh
 echo 'Reference demo documentation for how and when to run said script'
 
 echo '----------------------------------------------------------'
-echo 'Now run the following command, and see demo doc for next steps:'
+echo 'RUN THE FOLLOWING COMMAND: and see demo doc for next steps:'
 echo 'source  ~/.bashrc'
-
+echo '----------------------------------------------------------'
+echo 'Once you have run the above command, see demo doc for next steps'
 
 
 
