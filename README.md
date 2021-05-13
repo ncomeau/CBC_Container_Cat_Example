@@ -26,7 +26,7 @@ Click Below image for full video breakdown.
       * Select the ‘Power’ option under ‘Settings’
       * Adjust ‘Blank Screen’ drop down to either ‘15 Minutes’ or ‘Never’
       
-4. Download, or git, the [k8_demo_setup.sh](https://github.com/ncomeau/CBC_Container_Cat_Example) listed above, and move to your Ubuntu VM.
+4. Download, or git, the [k8_demo_setup.sh](https://github.com/ncomeau/CBC_Container_Cat_Example/blob/main/k8_demo_setup.sh) listed above, and move to your Ubuntu VM.
     * NOTE: If you copy and paste you might run into errors with special characters being added to the script
     
 5. Open terminal window on your Ubuntu Machine
