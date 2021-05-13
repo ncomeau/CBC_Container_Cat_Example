@@ -76,7 +76,7 @@ echo 'Tagging the Docker image for the k8 registry...'
 docker images | grep "^k8-se-demo/catnip" | awk '{ system("docker tag " $3 " localhost:32000/" $1 ":registry") }'
 
 echo '----------------------------------------------------------'
-echo 'Pushing the Docker images...'
+echo 'Pushing the Docker images. You may see connection errors - this is normal. Please be patient...'
 docker push localhost:32000/k8-se-demo/catnip; while [ $? != 0 ]; do sleep 3; docker push localhost:32000/k8-se-demo/catnip; done
 
 echo '----------------------------------------------------------'
