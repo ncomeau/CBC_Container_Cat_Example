@@ -60,17 +60,17 @@ Click Below image for full video breakdown.
 
 4. Upon completion of creating a scope, navigate to \[Enforce > K8s Policies > Add Policy\]
       * Create a new policy with the following configs;
-            * Scope: Scope you created in prior step
-            * Network: Node Pode --> Alert
-            * Quota: Memory Limits --> Block
-            * Quota: CPU Limits --> Block
+           * Scope: Scope you created in prior step
+           * Network: Node Pode --> Alert
+           * Quota: Memory Limits --> Block
+           * Quota: CPU Limits --> Block
 
 5. (_Optional_)Upon completion of policy creation - it is recommended that you create a notification tied to a Slack channel
       * Navigate to \[Settings > Notifications > Kubernetes tab > Add Notification\]
       * Add Notification with the following params:
-            * Polices: Policy created in step above
-            * Provider URL: Slack Webhook
-                  * See https://api.slack.com/messaging/webhooks for additional details on using Slack webhooks
+           * Polices: Policy created in step above
+           * Provider URL: Slack Webhook
+               * See https://api.slack.com/messaging/webhooks for additional details on using Slack webhooks
 
 ## Demo 
 
